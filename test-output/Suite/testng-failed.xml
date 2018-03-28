@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.harsha.javaPractice.Exceptions.day7.ExceptionHandling">
+        <methods>
+          <include name="tryCatchExceptionPractice"/>
+          <include name="fileNotFoundExceptionHandlingPractice"/>
+          <include name="throwNewExceptionPractice"/>
+          <include name="nullPointerExceptionPractice"/>
+        </methods>
+      </class> <!-- com.harsha.javaPractice.Exceptions.day7.ExceptionHandling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
